@@ -1,0 +1,70 @@
+/* Write your CSS code here */
+.bg-container {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+}
+h1 {
+  color: #ea580c;
+  font-size: 35px;
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px lightgray;
+}
+label {
+  color: #475569;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+input {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #9aa5b1;
+  background-color: transparent;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 5px;
+  outline: none;
+}
+button {
+  background-color: #ea580c;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  align-self: center;
+  margin-top: 30px;
+}
+p {
+  color: red;
+  font-size: 14px;
+  margin-top: 0;
+}
+.success-container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tick-img {
+  width: 80px;
+}
+.success-para {
+  font-size: 20px;
+  margin-top: 20px;
+}
